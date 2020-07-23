@@ -6,6 +6,7 @@ node {
     stage("MAVEN"){
         echo "MAVEN_BUILD"
         echo "Ravi"
+        echo "sunny"
     }
         
         stage("TEst"){
