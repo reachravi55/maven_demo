@@ -1,6 +1,6 @@
 node {
     stage("GITHUB_CHECKOUT"){
-       git credentialsId: 'GITHUB', url: 'https://github.com/cherukurisai451/vaadin-chat.git' 
+       git credentialsId: 'GITHUB', url: 'https://github.com/reachravi55/maven_demo.git' 
     }
     
     stage("MAVEN"){
