@@ -21,8 +21,4 @@ node {
     stage ('maven install'){
         sh 'mvn clean install'
     }
-    stage ('deploy'){
-        deploy adapters: [tomcat8(credentialsId: 'tomcat', path: '', url: 'http://54.81.242.27:8080/')], contextPath: null, onFailure: false, war: '**/*.war'
-        
-    }
 }
